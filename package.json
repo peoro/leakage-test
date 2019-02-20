@@ -1,0 +1,19 @@
+{
+	"name": "@peoro/leakage-test",
+	"version": "1.0.0",
+	"description": "Testing leakage performance for https://github.com/andywer/leakage/issues/32#issuecomment-465751112",
+	"scripts": {
+		"test": "mocha --timeout 9999999 test.js"
+	},
+	"devDependencies": {
+		"leakage": "^0.4.0",
+		"mocha": "^6.0.0",
+		"sinon": "^7.2.4"
+	},
+	"author": "peoro",
+	"license": "MIT",
+	"keywords": [],
+	"homepage": "https://github.com/peoro/leakage-test",
+	"bugs": "https://github.com/peoro/leakage-test/issues",
+	"repository": "github:peoro/leakage-test"
+}
